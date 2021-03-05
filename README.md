@@ -32,7 +32,7 @@ Output: Creates a folder MEGAHIT-Bvul. Inside that, ${SAMPLE}.fastq files are ge
 
 Output: final.contigs.fa file is generated for each sample.
 
-3. The resultant final.contigs.fa file for each sample is then annotated using Prokka, 'eC_number' is grepped from the '.gff' file, and then each 'eC_number' is annotated against KEGG database using MinPath. The resultant 'map ID' is selected based on the minpath value 1. These steps can be conducted excuting the below script. 
+3. The resultant final.contigs.fa file for each sample is then annotated using Prokka, 'eC_number' is grepped from the '.gff' file, and then each 'eC_number' is annotated against the KEGG database using MinPath. The resultant 'map ID' is selected based on the minpath value 1. These steps can be conducted executing the below script. 
 
 >sbatch PKS_Prokka_Minpath.sh
 
